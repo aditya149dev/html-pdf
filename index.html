@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/global.css">
+</head>
+<body class="text-gray-950 text-sm">
+    <div class="max-w-[210mm] mx-auto p-12 space-y-3">
+        <!-- Header Section -->
+        <section class="space-y-2.5">
+            <div class="flex justify-between border-b border-gray-400">
+                <div>
+                    <h1 class="text-3xl font-bold text-gray-900">John Doe</h1>
+                    <p class="text-gray-600">Senior Software Engineer</p>
+                </div>
+                <div class="flex flex-col items-start gap-2 text-gray-600 font-sans text-xs">
+                    <!-- Top Row: Email & Phone -->
+                    <div class="flex gap-4">
+                        <div class="flex items-center gap-1.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Row: Portfolio, LinkedIn, GitHub -->
+                    <div class="flex gap-4">
+                        <div class="flex items-center gap-1.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                            <a href="https://johndoe.dev" target="_blank">Portfolio</a>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.041-1.416-4.041-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                Experienced Software Engineer with a strong background in developing scalable web applications. Proficient in modern JavaScript frameworks, cloud services, and agile methodologies. Passionate about writing clean, maintainable code and solving complex technical challenges.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="space-y-2">
+            <h2 class="text-lg font-bold text-gray-900 border-b border-gray-400">Skills</h2>
+            <div class="flex flex-wrap gap-x-4">
+                <span>HTML5/CSS3</span>
+                <span>JavaScript/<span class="font-bold text-gray-800">TypeScript</span></span>
+                <span><span class="font-bold text-gray-800">React</span>/Vue.js</span>
+                <span><span class="font-bold text-gray-800">Next.js</span>/Nuxt.js</span>
+                <span><span class="font-bold text-gray-800">Redux</span>/Zustand/<span class="font-bold text-gray-800">GraphQL</span></span>
+                <span><span class="font-bold text-gray-800">Node.js</span>/Python/Go</span>
+                <span><span class="font-bold text-gray-800">Express.js</span>/Django/FastAPI</span>
+                <span><span class="font-bold text-gray-800">PostgreSQL</span>/MongoDB/Redis</span>
+                <span><span class="font-bold text-gray-800">Docker</span>/AWS/Kubernetes</span>
+                <span><span class="font-bold text-gray-800">REST</span>/gRPC</span>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="space-y-2">
+            <h2 class="text-lg font-bold text-gray-900 border-b border-gray-400">Experience</h2>
+            <div class="space-y-2.5">
+                <div class="space-y-1">
+                    <div class="flex justify-between items-baseline">
+                        <div class="flex items-center gap-2">
+                            <h3 class="font-bold text-gray-900">Senior Software Engineer</h3>
+                            <span class="text-gray-600">—</span>
+                            <p class="text-gray-600">Tech Solutions Inc.</p>
+                        </div>
+                        <p class="text-gray-600 font-medium">Jan 2022 - Present</p>
+                    </div>
+                    <ul class="list-disc list-outside ml-8 text-gray-700">
+                        <li>Led the development of a high-traffic e-commerce platform, improving performance by 30% through advanced caching strategies and code optimization.</li>
+                        <li>Mentored junior developers and conducted code reviews to ensure high-quality standards and best practices across the engineering team.</li>
+                        <li>Implemented robust CI/CD pipelines, reducing deployment time by 50% and increasing release frequency.</li>
+                        <li>Architected and developed a microservices-based backend system using Node.js and PostgreSQL, supporting over 100k daily active users.</li>
+                        <li>Collaborated with product designers to create a responsive and intuitive user interface using React and Tailwind CSS.</li>
+                    </ul>
+                    
+                    <div class="ml-5">
+                        <h2 class="font-bold text-gray-900 mb-1">Key Products</h2>
+                        <div class="pl-3 border-l border-gray-300">
+                            <p><span class="font-bold text-gray-800 mr-1">E-Commerce Engine:</span> Scalable platform for online retail with real-time inventory management.</p>
+                            <p><span class="font-bold text-gray-800 mr-1">Analytics Dashboard:</span> Comprehensive data visualization tool for tracking key business metrics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="space-y-2">
+            <h2 class="text-lg font-bold text-gray-900 border-b border-gray-400">Projects</h2>
+            <div class="space-y-2.5">
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-bold">Open Source Project Alpha</h3>
+                        <a href="https://github.com/johndoe/project-alpha" target="_blank" class="text-gray-500 text-xs">GitHub</a>
+                    </div>
+                    <ul class="list-disc list-outside ml-8 text-gray-700">
+                        <li>Developed a high-performance library for real-time data processing.</li>
+                        <li>Achieved 1,000+ stars on GitHub and multiple contributions from the community.</li>
+                        <li>Implemented comprehensive unit testing and documentation.</li>
+                    </ul>
+                </div>
+                
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center">
+                        <h3 class="font-bold">Cloud Infrastructure Tool</h3>
+                        <a href="https://github.com/johndoe/cloud-tool" target="_blank" class="text-gray-500 text-xs">GitHub</a>
+                    </div>
+                    <ul class="list-disc list-outside ml-8 text-gray-700">
+                        <li>Automated cloud resource provisioning using Infrastructure as Code (IaC).</li>
+                        <li>Reduced operational overhead by 20% for early adopters.</li>
+                    </ul>
+                </div>
+
+                <div class="space-y-1">
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-baseline gap-2">
+                            <h3 class="font-bold">Portfolio Website</h3>
+                            <span class="text-gray-500 text-xs">Next.js, Tailwind, Vercel</span>
+                        </div>
+                        <a href="https://github.com/johndoe/portfolio" target="_blank" class="text-gray-500 text-xs">GitHub</a>
+                    </div>
+                    <ul class="list-disc list-outside ml-8 text-gray-700">
+                        <li>Designed and developed a modern portfolio website showcasing personal projects and skills.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="space-y-2">
+            <h2 class="text-lg font-bold text-gray-900 border-b border-gray-400">Education</h2>
+            <div class="space-y-2">
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-bold">Bachelor of Science in Computer Science</h3>
+                        <p class="text-gray-500 text-xs">GPA: 3.8/4.0</p>
+                    </div>
+                    <p class="text-gray-600">University of Technology, Cityville (Graduated 2021)</p>
+                </div>
+                
+                <!-- 
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-bold">High School Diploma</h3>
+                        <p class="text-gray-500 text-xs">Gade: A</p>
+                    </div>
+                    <p class="text-gray-600">City High School, Cityville (2017)</p>
+                </div>
+                -->
+
+                <!-- 
+                <div>
+                    <div class="flex justify-between items-baseline">
+                        <h3 class="font-bold">Secondary School</h3>
+                        <p class="text-gray-500 text-xs">Grade: A</p>
+                    </div>
+                    <p class="text-gray-600">Junior High School, Cityville (2015)</p>
+                </div>
+                -->
+            </div>
+        </section>
+    </div>
+</body>
+</html>
